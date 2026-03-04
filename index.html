@@ -12,6 +12,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17900439186"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-17900439186');
+    </script>
 </head>
 
 <body>
@@ -19,11 +28,13 @@
     <div class="glow-effect"></div>
 
     <header id="main-header">
-        <a href="https://wa.me/919662675683" target="_blank" class="contact-item" id="phone-1">
+        <a href="https://wa.me/919662675683" target="_blank" class="contact-item" id="phone-1"
+            onclick="gtag('event', 'conversion', {'send_to': 'AW-17900439186/CONVERSION_LABEL'});">
             <span class="contact-label">Whats no.</span>
             <span>+91 9662675683</span>
         </a>
-        <a href="https://wa.me/918200646929" target="_blank" class="contact-item" id="phone-2">
+        <a href="https://wa.me/918200646929" target="_blank" class="contact-item" id="phone-2"
+            onclick="gtag('event', 'conversion', {'send_to': 'AW-17900439186/CONVERSION_LABEL'});">
             <span class="contact-label">Whats no.</span>
             <span>+91 8200646929</span>
         </a>
